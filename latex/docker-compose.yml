@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  latex:
+    image: ktsuda/latex:18.04
+    build: .
+    volumes:
+      - .:/work:rw
+    tty: true
+    stdin_open: true
