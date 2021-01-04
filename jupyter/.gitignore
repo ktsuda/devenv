@@ -1,2 +1,4 @@
 work/*
-!work/.keep
+!work/pyproject.toml
+!work/poetry.lock
+
