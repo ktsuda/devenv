@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  golang:
+    image: ktsuda/go:1.13.5
+    container_name: golang
+    command: "/bin/bash"
+    tty: true
+    stdin_open: true
+    volumes:
+      - .:/root
+
